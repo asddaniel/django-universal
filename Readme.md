@@ -103,3 +103,8 @@ le package est fournie avec une license libre (MIT)
 devasddaniel@gmail.com
 ### Package pip 
  https://pypi.org/project/universaldjango/0.1/
+ 
+ ```php 
+
+$users = App\Models\User::where('name', 'ilike', 'john%')->get();    
+ ```
